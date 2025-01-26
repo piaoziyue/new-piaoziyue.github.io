@@ -6,11 +6,11 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
   return (
     <div className="flex flex-col sm:flex-row gap-6">
       {portfolio.imageUrl && (
-        <div className="w-1/4 min-w-[160px] relative">
+        <div className="w-1/4 min-w-[200px] relative">
           <Image
             src={portfolio.imageUrl}
             alt={portfolio.title}
-            width={160}
+            width={200}
             height={200}
             className="rounded-lg"
           />
@@ -24,10 +24,10 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
               className="group inline-flex items-center gap-2 hover:text-zinc-600 transition-colors duration-300"
             >
               {portfolio.title}
-              <ArrowUpRight
+              {/* <ArrowUpRight
                 size={16}
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
-              />
+              /> */}
             </a>
           ) : (
             portfolio.title
@@ -57,7 +57,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
                 size={12}
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
-              <span className="tracking-wider uppercase">Project</span>
+              <span className="tracking-wider uppercase">Link</span>
             </a>
           )}
           {portfolio.codeUrl && (
