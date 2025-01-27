@@ -24,7 +24,7 @@ export function NewsEntry({ news }: { news: News }) {
             news.title
           )}
         </h3>
-        <p className="text-sm text-zinc-600">{news.description}</p>
+        {/* <p className="text-sm text-zinc-600">{news.description}</p> */}
       </div>
     </div>
   );
