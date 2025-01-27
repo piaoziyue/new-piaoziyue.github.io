@@ -60,7 +60,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
               <span className="tracking-wider uppercase">Link</span>
             </a>
           )}
-          {portfolio.codeUrl && (
+          {/* {portfolio.codeUrl && (
             <a
               href={portfolio.codeUrl}
               className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
@@ -71,7 +71,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
               />
               <span className="tracking-wider uppercase">Code</span>
             </a>
-          )}
+          )} */}
         </div>
         <p className="text-sm text-zinc-600 mb-4 mt-4 italic">
           {portfolio.description}
