@@ -34,7 +34,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
           )}
         </h3>
 
-        {portfolio.technologies && (
+        {/* {portfolio.technologies && (
           <div className="flex gap-2 mb-4 flex-wrap">
             {portfolio.technologies.map((tech, index) => (
               <span
@@ -45,7 +45,7 @@ export function PortfolioEntry({ portfolio }: { portfolio: Portfolio }) {
               </span>
             ))}
           </div>
-        )}
+        )} */}
 
         <div className="flex gap-6">
           {portfolio.projectUrl && (
