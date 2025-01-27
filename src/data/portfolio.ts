@@ -15,17 +15,17 @@ export const portfolioData: Portfolio[] = [
     imageUrl:
       "/assets/img/portfolio/performance/per_sing_setu.png",
   },
-  {
-    title: "Automatic Re-arrangement with Compositional Style Transfer",
-    description: "",
-    // description:
-    //   "A framework for discovering causal relationships in high-dimensional time series data using state-of-the-art machine learning techniques.",
-    // technologies: ["Python", "PyTorch", "React"],
-    projectUrl: "https://youtu.be/Yj4AGCS4tXE?si=FLEd-sKWIHLDHxlO",
-    imageUrl:
-      "/assets/img/portfolio/performance/choir.png",
-    // codeUrl: "https://github.com/username/project",
-  },
+  // {
+  //   title: "Automatic Re-arrangement with Compositional Style Transfer",
+  //   description: "",
+  //   // description:
+  //   //   "A framework for discovering causal relationships in high-dimensional time series data using state-of-the-art machine learning techniques.",
+  //   // technologies: ["Python", "PyTorch", "React"],
+  //   projectUrl: "https://youtu.be/Yj4AGCS4tXE?si=FLEd-sKWIHLDHxlO",
+  //   imageUrl:
+  //     "/assets/img/portfolio/performance/choir.png",
+  //   // codeUrl: "https://github.com/username/project",
+  // },
   {
     title: "Dao: A Laptop Orchestra Performance",
     description: "",
