@@ -2,8 +2,6 @@ import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
 
-const isProd = process.env.NODE_ENV === 'production';
-
 const nextConfig = {
   output: 'export', // Export the app as static files
   basePath: isProd ? '/piaoziyue.github.io' : '', // Set your repository name here
