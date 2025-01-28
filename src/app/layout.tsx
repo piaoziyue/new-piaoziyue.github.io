@@ -47,9 +47,13 @@ export default function RootLayout({
         <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-[#FFFCF8]">
           <div className="flex flex-row mx-auto max-w-7xl px-6 py-12 md:flex md:items-start md:justify-between ">
             <div className="mb-4 text-sm text-neutral-600 dark:text-neutral-400">
-              <p>
+              
+              <a
+                href="https://clustrmaps.com/site/1blfr"
+              >
                 © {new Date().getFullYear()} {aboutMe.name}.
-              </p>
+              </a>  
+              
               {aboutMe.secretDescription && (
                 <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
                   {aboutMe.secretDescription}
@@ -68,6 +72,7 @@ export default function RootLayout({
               </p>
             </div>
           </div>
+
         </footer>
       </body>
     </html>
