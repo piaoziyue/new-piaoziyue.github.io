@@ -48,11 +48,16 @@ export default function RootLayout({
           <div className="flex flex-row mx-auto max-w-7xl px-6 py-12 md:flex md:items-start md:justify-between ">
             <div className="mb-4 text-sm text-neutral-600 dark:text-neutral-400">
               
-              <a
-                href="https://clustrmaps.com/site/1blfr"
-              >
-                © {new Date().getFullYear()} {aboutMe.name}.
-              </a>  
+            <div className="mb-4 text-sm text-neutral-600 dark:text-neutral-400">
+                <a href="https://clustrmaps.com/site/1blfr" title="Visit tracker">
+                  © {new Date().getFullYear()} {aboutMe.name}.
+                </a>
+                <img
+                  src="http://www.clustrmaps.com/map_v2.png?d=AOpTLz458w686Jm6qaHPabvrYzxp7Ln5KHnZCxykHig&cl=ffffff"
+                  alt="ClustrMaps Tracker"
+                  style={{ display: "none" }} // Hides the image completely
+                />
+              </div> 
               
               {aboutMe.secretDescription && (
                 <p className="text-xs text-neutral-600 dark:text-neutral-400 mt-4">
@@ -60,6 +65,9 @@ export default function RootLayout({
                 </p>
               )}
             </div>
+
+
+            
             <div className="mb-4">
               <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
                 Built with{" "}
